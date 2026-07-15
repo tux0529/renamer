@@ -12,5 +12,6 @@
         <file>window-bar/pin-fill.svg</file>
         <file>AppIcon_1024.png</file>
         <file>app/renamer.png</file>
+        <file>i18n/renamer_zh_CN.qm</file>
     </qresource>
 </RCC>
