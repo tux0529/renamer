@@ -165,7 +165,7 @@ void TableModel::replace(const QRegularExpression &findRE, const QString &replac
         auto fi = m_fileList.at(i);
 
         QRegularExpressionMatch match = findRE.match(fi->CurrentName);
-        if (match.hasMatch()) {
+        if (findRE.isValid() && match.hasMatch()) {
             QString findText = match.captured(0);
             QStringList capList = match.capturedTexts();
             QString replaceTextMatch = replaceText;

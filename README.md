@@ -31,7 +31,7 @@ Supports searching for specific characters in file names and replacing them with
 
 ## Screenshot
 
-![macOS](./screenshot/renamer.png)
+![macOS](./screenshot/renamer.webp)
 
 ## TODO
 
