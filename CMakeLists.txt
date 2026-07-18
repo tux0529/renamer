@@ -26,7 +26,7 @@ set(PROJECT_SOURCES
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
     if (WIN32)
     #! [appicon_windows]
-        set(app_icon_resource_windows "${CMAKE_CURRENT_SOURCE_DIR}/resources/naviPlayer.rc")
+        set(app_icon_resource_windows "${CMAKE_CURRENT_SOURCE_DIR}/resources/renamer.rc")
         qt_add_executable(renamer
             MANUAL_FINALIZATION
             ${PROJECT_SOURCES}
@@ -127,7 +127,7 @@ set_target_properties(renamer PROPERTIES
     MACOSX_BUNDLE_SHORT_VERSION_STRING ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR}
     MACOSX_BUNDLE_INFO_STRING "Rename files"
     MACOSX_BUNDLE_GUI_IDENTIFIER "cn.redtux.renamer"
-    MACOSX_BUNDLE_COPYRIGHT "redtux@tux.red"
+    MACOSX_BUNDLE_COPYRIGHT "redtux@redtux.cn"
     MACOSX_BUNDLE TRUE
     WIN32_EXECUTABLE TRUE
 )

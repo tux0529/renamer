@@ -23,6 +23,10 @@
         <source>Rename</source>
         <translation>重命名</translation>
     </message>
+    <message>
+        <source>Form</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>MainWindow</name>
@@ -41,6 +45,10 @@
     <message>
         <source>Settings(&amp;S)</source>
         <translation>设置（&amp;S）</translation>
+    </message>
+    <message>
+        <source>Renamer</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

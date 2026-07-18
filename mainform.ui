@@ -47,7 +47,7 @@
         <height>16777215</height>
        </size>
       </property>
-      <layout class="QGridLayout" name="gridLayout">
+      <layout class="QGridLayout" name="gridLayout" rowstretch="0,0,0,0,0,1">
        <property name="leftMargin">
         <number>24</number>
        </property>

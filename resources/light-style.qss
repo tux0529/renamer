@@ -65,6 +65,7 @@ QWK--WindowBar>QAbstractButton#max-button:pressed {
 
 QWK--WindowBar>QAbstractButton#close-button {
     qproperty-iconNormal: url(":/window-bar/close.svg");
+color:#333333;
 }
 
 QWK--WindowBar>QAbstractButton#close-button:hover,
@@ -102,7 +103,7 @@ QMenuBar>QToolButton#qt_menubar_ext_button:pressed {
 }
 
 QMenuBar::item {
-    color: #EEEEEE;
+    color: #333333;
     border: none;
     padding: 8px 12px;
 }
@@ -143,7 +144,7 @@ QMenu::item:selected {
 }
 
 QMenu::item:disabled {
-    color: #CCCCCC;
+    color: #999999;
 }
 
 QMenu::separator {
@@ -199,6 +200,7 @@ border:none;
 
 
 QLineEdit,QTextEdit,QPlainTextEdit,QSpinBox,QDoubleSpinBox,QComboBox,QDateEdit,QTimeEdit,QDateTimeEdit{
+color: #333333;
 border:1px solid #999999;
 border-radius:6px;
 padding:3px;
